@@ -1,4 +1,3 @@
-# notes
-Notes
+# My Tech Notes
 
 * [Docker](docker)
