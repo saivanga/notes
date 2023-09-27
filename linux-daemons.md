@@ -35,6 +35,20 @@ Every process will have a process id.
 We can see this process id when we use the command `ps -aux`
 As systemd is the first daemon that will be started it will always contain the process id as `1`
 
+systemd thinks of other daemons as units.
+
+Generally we do following actions with any daemon
+1. start
+2. stop
+3. restart
+4. status
+
+Using `systemctl` we can control any daemons
+Example: 
+1. sudo systemctl status sshd
+2. sudo systemctl start sshd
+3. sudo systemctl stop sshd
+4. sudo systemctl restart sshd
 
 
 
