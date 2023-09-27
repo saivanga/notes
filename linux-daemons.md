@@ -31,6 +31,10 @@ Command
 * pstree
 Lists tree of daemons and we can see which daemon started other daemons.
 
+Every process will have a process id.
+We can see this process id when we use the command `ps -aux`
+As systemd is the first daemon that will be started it will always contain the process id as `1`
+
 
 
 
