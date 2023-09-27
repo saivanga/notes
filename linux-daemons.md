@@ -11,8 +11,26 @@ ps -aux | grep sublime
 * Once we close that program - Related processes will be stoppe automatically
 
 Daemons are the processes that we don't start
-They are like background processes
-Can also be referred as services
+* They are like background processes
+* Can also be referred as services
 
 Every daemon file will contain a `d` at the end.
+
 Example daemons:
+1. sshd
+2. systemd
+3. ntpd
+4. httpd
+   etc...
+
+systemd - Boss of daemons - This controls daemons - starts/stops/restarts other daemons
+* It is the first service/daemon that will be started after booting a linux system (boot -> kernel -> systemd)
+
+
+Command
+* pstree
+Lists tree of daemons and we can see which daemon started other daemons.
+
+
+
+
