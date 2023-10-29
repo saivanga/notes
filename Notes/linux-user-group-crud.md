@@ -24,6 +24,10 @@
     `sudo passwd -u <username>`
     This will unlock the user account, allowing the user to log in again.
 
+1. Make files that are automatically in the user's home
+    `cd /etc/skel && touch <file>`
+    This will make the file in the user's home directory, every time you make a new user.
+
 1.  Grant sudo privileges to a user:
     `sudo usermod -aG sudo <username>`
     This will add the user to the sudo group, allowing the user to run commands with root privileges.
