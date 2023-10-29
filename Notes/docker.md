@@ -7,7 +7,7 @@
    sudo docker container run -it --name <container_name> <image_name> <shell>
    ```
    Example:
-   * To start a new interactive container with ubuntu operating system with the name ubuntu and bash as shell
+   - To start a new interactive container with ubuntu operating system with the name ubuntu and bash as shell
      ```
      sudo docker container run -it --name ubuntu ubuntu bash
      ```
@@ -35,5 +35,5 @@ Questions
 
 ```
 Managing Images
-* 
+*
 ```
