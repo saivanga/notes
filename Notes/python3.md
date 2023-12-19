@@ -19,3 +19,18 @@ source .venv/bin/activate
 ```
 deactivate
 ```
+
+# To install any package
+```
+pip install notebook
+```
+
+# To start a Jupyter server
+```
+jupyter notebook
+```
+
+# Default extension of Jupyter notebook
+```
+.ipynb
+```
